@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>    
+<head>
+    <meta charset="utf-8">
+    <title>Promociones</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, userscalable=no">
+</head>
+<!--CUERPO DE LA PAGINA-->
+<body>
+<!--CABECERA DE LA PAGINA-->
+<header>
+    <div>
+        <img id="logo" src="../imagenes/img_logo.jpeg">
+    </div>
+    <ul id="btn_cabecera">
+        <li><a href="contacto.html" onmouseover="verBoton()">CONTACTO</a></li>
+        <li><a href="promociones.html">PROMOCIONES</a></li>
+        <li><a href="galeria.html">GALERIA</a></li>
+        <li><a href="servicios.html">SERVICIOS</a></li>
+        <li><a href="../index.html">INICIO</a></li>
+    </ul>
+</header>
+
+<!--SECCTION DE LA PAGINA-->
+<section id="section_promociones">
+    
+    <div id="cuadro1">
+        <div id="img_promo1">
+            <img src="../imagenes/img_inicio_promo.jpg" class="ajustar_img">
+        </div>
+        <div id="text_promo1">
+            <h1 class="tamanho_letra0">Promociones</h1>
+            <p class="tamanho_letra">Que tus uñas luzcan perfectas siempre. Conocé las promociones y beneficios que tenemos para vos.</p>
+        </div>
+    </div>
+    <div id="cuadro2">
+        <div id="img_promo2">
+            <a href="#promociones" onmouseover="mostrar_text_promo('text_promo2')" onmouseout="ocultar_text_promo('text_promo2')"><img src="../imagenes/img_promo1.jpg" class="ajustar_img"></a>
+        </div>
+        <div id="text_promo2" style="display: none;">
+            <h1 class="tamanho_letra0">20% y 30%<br>LUNES A MIÉRCOLES</h1>
+            <p class="tamanho_letra">Disfrutá de un 20% y 30% de descuento en nuestro servicio de esmaltado semipermante. Promoción válida de Lunes a Miércoles en todas nuestras sucursales pagando de contado – efectivo.</p>
+        </div>
+    </div>
+    <div id="cuadro3">
+        <div id="img_promo3">
+            <a href="#promociones" onmouseover="mostrar_text_promo('text_promo3')" onmouseout="ocultar_text_promo('text_promo3')"><img src="../imagenes/img_promo2.jpg" class="ajustar_img"></a>
+        </div>
+        <div id="text_promo3" style="display: none;">
+            <h1 class="tamanho_letra0">20% COMBOS<br>LUNES A JUEVES</h1>
+            <p class="tamanho_letra">Disfrutá de un 20% de descuento en nuestros combos de manos y pies. Promoción válida de Lunes a Jueves en todas nuestras sucursales pagando de contado-efectivo.</p>
+        </div>
+    </div>
+    <p class="text_precios">*Todos los precios y promociones, podrían variar sin previo aviso.</p>
+</section>
+
+<!--PIE DE PAGINA-->
+<footer>
+    <p id="pie_de_pagina">© 2021 R L Estética</p>
+    <ul id="btnn_redes">
+        <li><a href="https://web.facebook.com/romina.carrazan.756" target="new"><img id="img_fb" src="../iconos/img_fb2.png" alt="icono de faceook"></a></li>
+        <li><a href="https://instagram.com/rlnailsstudio?utm_medium=copy_link" target="new"><img id="img_inst" src="../iconos/img_insta2.png" alt="icono de instagram"></a></li>
+        <li><a href="https://www.whatsapp.com/catalog/5493329553386/?app_absent=0" target="new"><img id="img_wsp" src="../iconos/img_wsp2.png" alt="icono de whatsap"></a></li>
+    </ul>
+</footer>
+<script type="text/javascript" src="../js/promociones.js"></script>
+</body>
+</html>
