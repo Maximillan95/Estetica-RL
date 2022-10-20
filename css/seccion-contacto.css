@@ -1,0 +1,39 @@
+#section_contacto{
+    background-color: #ffcccc;
+    height: 690px;
+}
+#img_inicio_contacto{
+    background-image: url(../imagenes/img_contacto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 640px;
+}
+
+#titulo_contacto{
+    font-size: 50px;
+    color: #ffcccc;
+    padding-top: 25px;
+    margin-left: 25px;
+    text-decoration: underline;
+}
+/*#formulario_contactoss form ul li{
+    font-size: 20px;
+    display: block;
+    padding-top: 25px;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+}*/
+
+#formulario_consultas{
+    width: 550px;
+    margin: 100px auto;
+}
+
+input, textarea{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}

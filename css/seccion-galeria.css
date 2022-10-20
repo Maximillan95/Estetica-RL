@@ -1,0 +1,95 @@
+#section_galeria{
+    background-color: #ffcccc;
+    height: 1162px;
+}
+
+#img_1{
+    border: 2px solid #000;
+    height: 248px;
+    width: 248px;
+    background-image: url(../imagenes/img_1.jpg);
+    margin-top: 30px;
+    margin-left: 100px;
+    float: left;
+    border-radius: 3px;
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.5);
+}
+#img_2{
+    border: 2px solid #000; 
+    height: 248px;
+    width: 248px;
+    background-image: url(../imagenes/img_2.jpg);
+    margin-top: 30px;
+    margin-right: 100px;
+    float: right;
+    border-radius: 3px;
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.5);
+}
+
+#img_3{
+    border: 2px solid #000;
+    height: 248px;
+    width: 248px;
+    background-image: url(../imagenes/img_001.jpeg);
+    margin-top: 30px;
+    margin-left: 100px;
+    float: left;
+    border-radius: 3px;
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.5);
+}
+#img_4{
+    border: 2px solid #000; 
+    height: 248px;
+    width: 248px;
+    background-image: url(../imagenes/img_002.jpeg);
+    margin-top: 30px;
+    margin-right: 100px;
+    float: right;
+    border-radius: 3px;
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.5);
+}
+#img_5{
+    border: 2px solid #000;
+    height: 248px;
+    width: 248px;
+    background-image: url(../imagenes/img_5.jpg);
+    margin-top: 30px;
+    margin-left: 100px;
+    float: left;
+    border-radius: 3px;
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.5);
+}
+#img_6{
+    border: 2px solid #000; 
+    height: 248px;
+    width: 248px;
+    background-image: url(../imagenes/img_6.jpg);
+    margin-top: 30px;
+    margin-right: 100px;
+    float: right;
+    border-radius: 3px;
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.5);
+}
+#img_7{
+    border: 2px solid #000;
+    height: 248px;
+    width: 248px;
+    background-image: url(../imagenes/img_7.jpg);
+    margin-top: 30px;
+    margin-left: 100px;
+    float: left;
+    border-radius: 3px;
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.5);
+}
+#img_8{
+    border: 2px solid #000; 
+    height: 248px;
+    width: 248px;
+    background-image: url(../imagenes/img_8.jpg);
+    margin-top: 30px;
+    margin-right: 100px;
+    float: right;
+    border-radius: 3px;
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.5);
+}
+

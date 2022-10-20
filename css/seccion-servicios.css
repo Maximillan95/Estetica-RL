@@ -1,0 +1,60 @@
+#section_servicios{
+    background-color: #ffcccc;
+    height: 1600px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+}
+#img_inicio_serv{
+    background-image: url(../imagenes/img_inicio_serv2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 598px;
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo_serv{
+    /*text-decoration: underline 2px #fff;*/
+    color: #b7d0f3;
+    text-align: center;
+    font-size: 200px;
+    -webkit-text-stroke: 0.5px #5d9aef;
+    /*font-family: 'Pacifico', cursive;*/
+    font-family: 'Sacramento', cursive;
+}
+
+#epigrafe_inicio_serv{
+    /*color: #b7d0f3;*/
+    color: #649ef0;
+    line-height: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+    -webkit-text-stroke: 0.5px #fff;
+}
+#info_serv{
+    text-align: center;
+}
+.h1_servv{
+    font-size: 75px;
+    color: #b7d0f3;
+    text-decoration: underline 2px;
+    -webkit-text-stroke: 0.5px #000
+}
+.h2_servv{
+    margin-top: 75px;
+    font-size: 50px;
+    text-decoration: underline 2.5px;
+}
+
+.info_servv{
+    margin-top: 75px;
+    font-size: 30px;
+}

@@ -2,10 +2,12 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>R L Estética</title>
-    <link rel="stylesheet" href="./css/estilos.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, userscalable=no">
-    <script type="text/javascript" src="./js/bienvenida.js"></script>
+    <title>R L Estética</title> 
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css"/>
+    <link rel="stylesheet" href="./css/seccion-index.css">
+    <!--<script type="text/javascript" src="./js/bienvenida.js"></script>--> 
 </head>
 
 <body>
@@ -22,22 +24,24 @@
         </ul>
 </header>
 
-<section>
+<section id="seccion_inicio">
     <div id="img_inicio">
-        <p id="nombre_img_inicio">Bienvenid@ a<br><strong>R L Estética</strong><br></p>
+        <p id="nombre_img_inicio">R L Estética</p>
     </div>
 
-    <div id="info_servicio">
-        <p id="informacion_servicio">
-            <strong>R L Estética</strong> es principalmente un salón de belleza, vas a encontrar la forma creativa de 
-            esmaltar, decorar y embellecer las uñas. El abanico de ideas que forma esta tendencia es 
-            muy amplio, ya que no solo se juega con los colores, sino también las formas, los estampados 
-            y los materiales.
-            Pero también nos encanta terminar de resaltar la perfección de cada clienta, por eso agregamos 
-            servicios que completan esta meta como el perfilado de cejas, lifting, tintura, permanente de 
-            pestañas y extensión de las mismas, cuidado del pelo y de la piel. Para terminar nuestro propósito 
-            un maquillaje y peinado ideal para la ocasión.
-        </p>
+    <div id="container_info_servicio">
+        <div class="animado">
+            <p  id="informacion_servicio">
+                <strong>R L Estética</strong> es principalmente un salón de belleza, vas a encontrar la forma creativa de 
+                esmaltar, decorar y embellecer las uñas. El abanico de ideas que forma esta tendencia es 
+                muy amplio, ya que no solo se juega con los colores, sino también las formas, los estampados 
+                y los materiales.
+                Pero también nos encanta terminar de resaltar la perfección de cada clienta, por eso agregamos 
+                servicios que completan esta meta como el perfilado de cejas, lifting, tintura, permanente de 
+                pestañas y extensión de las mismas, cuidado del pelo y de la piel. Para terminar nuestro propósito 
+                un maquillaje y peinado ideal para la ocasión.
+            </p>
+        </div>
     </div>
     <video id="video_inicio" controls autoplay loop>
         <source src="./videos/video_1.mp4">
@@ -54,7 +58,7 @@
         <li><a href="https://www.whatsapp.com/catalog/5493329553386/?app_absent=0" target="new"><img id="img_wsp" src="./iconos/img_wsp2.png" alt="icono de whatsap"></a></li>
     </ul>
 </footer>
-<script type="module" src="./js/bienvenidaInicio.js"></script>
-<script type="module" src="./js/imgInicio.js"></script>
+<script type="module" src="./js/sec_index_scroll.js"></script>
+<!--<script type="module" src="./js/bienvenidaInicio.js"></script>--> 
 </body>
 </html>

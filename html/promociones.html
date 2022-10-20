@@ -2,9 +2,11 @@
 <html>    
 <head>
     <meta charset="utf-8">
-    <title>Promociones</title>
-    <link rel="stylesheet" href="../css/estilos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, userscalable=no">
+    <title>Promociones</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/seccion-promociones.css">
 </head>
 <!--CUERPO DE LA PAGINA-->
 <body>
@@ -25,31 +27,36 @@
 <!--SECCTION DE LA PAGINA-->
 <section id="section_promociones">
     
-    <div id="cuadro1">
+    <div class="cuadro1">
         <div id="img_promo1">
             <img src="../imagenes/img_inicio_promo.jpg" class="ajustar_img">
         </div>
-        <div id="text_promo1">
+        <div class="text_promo1">
             <h1 class="tamanho_letra0">Promociones</h1>
             <p class="tamanho_letra">Que tus uñas luzcan perfectas siempre. Conocé las promociones y beneficios que tenemos para vos.</p>
         </div>
     </div>
-    <div id="cuadro2">
-        <div id="img_promo2">
-            <a href="#promociones" onmouseover="mostrar_text_promo('text_promo2')" onmouseout="ocultar_text_promo('text_promo2')"><img src="../imagenes/img_promo1.jpg" class="ajustar_img"></a>
+    <div class="cuadro2">
+        <div class="img_promo2">
+            <!--a href="#promociones" onmouseover="mostrar_text_promo('text_promo2')" onmouseout="ocultar_text_promo('text_promo2')"><img src="../imagenes/img_promo1.jpg" class="ajustar_img"></a-->
+            <a href="#promociones"><img src="../imagenes/img_promo1.jpg" class="ajustar_img"></a>
+
         </div>
-        <div id="text_promo2" style="display: none;">
-            <h1 class="tamanho_letra0">20% y 30%<br>LUNES A MIÉRCOLES</h1>
-            <p class="tamanho_letra">Disfrutá de un 20% y 30% de descuento en nuestro servicio de esmaltado semipermante. Promoción válida de Lunes a Miércoles en todas nuestras sucursales pagando de contado – efectivo.</p>
+        <!-- <div class="text_promo2" style="display: none;"> -->
+            <div class="text_promo2">
+            <h1 class="tamanho_letra0">20% LUNES A MIÉRCOLES</h1>
+            <p class="tamanho_letra"><br>Disfrutá de un 20% de descuento en nuestro servicio de esmaltado semipermante. Promoción válida de Lunes a Miércoles en todas nuestras sucursales pagando de contado – efectivo.</p>
         </div>
     </div>
-    <div id="cuadro3">
-        <div id="img_promo3">
-            <a href="#promociones" onmouseover="mostrar_text_promo('text_promo3')" onmouseout="ocultar_text_promo('text_promo3')"><img src="../imagenes/img_promo2.jpg" class="ajustar_img"></a>
+    <div class="cuadro3">
+        <div class="img_promo3">
+            <!-- <a href="#promociones" onmouseover="mostrar_text_promo('text_promo3')" onmouseout="ocultar_text_promo('text_promo3')"><img src="../imagenes/img_promo2.jpg" class="ajustar_img"></a> -->
+            <a href="#promociones"><img src="../imagenes/img_promo2.jpg" class="ajustar_img"></a>
         </div>
-        <div id="text_promo3" style="display: none;">
-            <h1 class="tamanho_letra0">20% COMBOS<br>LUNES A JUEVES</h1>
-            <p class="tamanho_letra">Disfrutá de un 20% de descuento en nuestros combos de manos y pies. Promoción válida de Lunes a Jueves en todas nuestras sucursales pagando de contado-efectivo.</p>
+        <!-- <div class="text_promo3" style="display: none;"> -->
+        <div class="text_promo3">
+            <h1 class="tamanho_letra0">20% COMBOS LUNES A JUEVES</h1>
+            <p class="tamanho_letra"><br>Disfrutá de un 20% de descuento en nuestros combos de manos y pies. Promoción válida de Lunes a Jueves en todas nuestras sucursales pagando de contado-efectivo.</p>
         </div>
     </div>
     <p class="text_precios">*Todos los precios y promociones, podrían variar sin previo aviso.</p>
@@ -65,5 +72,6 @@
     </ul>
 </footer>
 <script type="text/javascript" src="../js/promociones.js"></script>
+<script type="module" src="../js/sec_promo_scroll.js"></script>
 </body>
 </html>

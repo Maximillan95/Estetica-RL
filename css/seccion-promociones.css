@@ -1,0 +1,58 @@
+#section_promociones{
+    background-color: #ffcccc;
+    height: 1250px;
+}
+.cuadro1, .cuadro2, .cuadro3{
+    width: 450px;
+    height: 370px;
+    margin: 0 auto;
+    background-color: white;  
+}
+ 
+.text_promo1, .text_promo2, .text_promo3{
+    margin-top: 20px;
+    text-align: center;
+}
+.text_precios{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.ajustar_img{
+    width: 100%;
+}
+.tamanho_letra0{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.img_promo2, .img_promo3, .text_promo2, .text_promo3{
+    opacity: 0;
+    transition: 1500ms;
+}
+
+
+/* SCROLL */
+.mostrarIzquierda{
+    animation: mostrarIzquierda 1500ms;
+}
+@keyframes mostrarIzquierda{
+    0%{
+        transform: translateX(-500px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+.mostrarDerecha{
+    animation: mostrarDerecha 1500ms;
+}
+@keyframes mostrarDerecha{
+    0%{
+        transform: translateX(500px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
