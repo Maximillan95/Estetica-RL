@@ -30,29 +30,74 @@
     opacity: 0;
     transition: 1500ms;
 }
-
-
 /* SCROLL */
 .mostrarIzquierda{
     animation: mostrarIzquierda 1500ms;
 }
 @keyframes mostrarIzquierda{
-    0%{
-        transform: translateX(-500px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
+    0%{transform: translateX(-500px);}
+    100%{transform: translateX(0px);}
 }
-
 .mostrarDerecha{
     animation: mostrarDerecha 1500ms;
 }
 @keyframes mostrarDerecha{
-    0%{
-        transform: translateX(500px);
-    }
-    100%{
-        transform: translateX(0px);
-    }
+    0%{transform: translateX(500px);}
+    100%{transform: translateX(0px);}
 }
+
+/*ADAPTACION A DISPOSITIVOS DE 660 A 1023*/
+@media all and (min-width: 660px) and (max-width: 1023px){
+    #cuadro1, #cuadro2, #cuadro3{
+        width: 250px;
+        height: 250px;
+        margin-left: 175px;
+        margin-right: 175px;
+        margin-top: 10px;
+        }
+    .tamanho_letra{
+        font-size: 10px;
+    }
+
+    .tamanho_letra0{
+        font-size: 15px;
+    }
+
+    .text_precios{
+        font-size: 15px;
+    }
+    #section_promociones{
+        height: 850px;
+    }
+} /*FIN ADAPTACION 660 - 1023
+
+_____________________________________
+
+ADAPTACION A DISPOSITIVOS HASTA 659*/
+@media all and (max-width: 659px){
+    #cuadro1, #cuadro2, #cuadro3{
+        height: 390px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 10px;
+        width: 450px;
+        }
+        
+        .text_precios{
+            font-size: 20px;
+        }
+        .tamanho_letra{
+            font-size: 15px;
+        }
+    
+        .tamanho_letra0{
+            font-size: 20px;
+        }
+    
+        .text_precios{
+            font-size: 18px;
+        }
+        #section_promociones{
+            height: 1300px;
+        }
+}/*FIN ADAPTACION 659*/

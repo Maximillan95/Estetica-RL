@@ -37,3 +37,45 @@ input, textarea{
     box-sizing: border-box;
     margin-bottom: 5px;
 }
+
+/*ADAPTACION A DISPOSITIVOS DE 660 A 1023*/
+@media all and (min-width: 660px) and (max-width: 1023px){
+    #section_contacto{
+        height: 450px;
+    }
+    #img_inicio_contacto{
+        background-repeat: no-repeat;
+        background-size: 600px;
+    }
+    
+    #titulo_contacto{
+        font-size: 35px;
+        padding-top: 10px;
+    }
+    #formulario_contactoss form ul li{
+        font-size: 18px;
+        padding-top: 12px;
+    }
+} /*FIN ADAPTACION 660 - 1023
+
+_____________________________________
+
+ADAPTACION A DISPOSITIVOS HASTA 659*/
+@media all and (max-width: 659px){
+    #section_contacto{
+        height: 500px;
+    }
+    #img_inicio_contacto{
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    #titulo_contacto{
+        font-size: 30px;
+        text-align: center;
+    }
+    #formulario_contactoss form ul li{
+        margin: 0% 100% 0% 0%;
+        width: 100%;
+    }
+}/*FIN ADAPTACION 659*/

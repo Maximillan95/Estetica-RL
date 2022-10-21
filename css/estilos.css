@@ -19,9 +19,6 @@ header{
     margin-left: 50px;
     width: 100px;
 }
-ul li{
-    display: inline;
-}
 
 #btn_cabecera li a{
     background-color: #ffffff;
@@ -30,11 +27,11 @@ ul li{
     color: #000;
     float: right;
     font-weight: bold;
-    height: 50px;
-    margin-right: 50px;
+    height: 45px;
+    margin-right: 25px;
     line-height: 40px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
     text-decoration: none;
     width: 120px;
@@ -68,219 +65,33 @@ footer{
     width: 40px;
 }
 
-/*ADAPTACIONA A DISPOSITIVOS*/
-
-@media all and (min-width: 600px) and (max-width: 1023px){
-    header, section, footer{
+/*ADAPTACIONA A DISPOSITIVOS DE 660 A 1023*/
+@media all and (min-width: 660px) and (max-width: 1023px){
+    header, footer{
         width: 100%;
     }
-    #section_servicios{
-        height: 900px;
-    }
-    #img_inicio_serv{
-        background-repeat: no-repeat;
-        background-size: 600px;
-        height: 385px;
-    }
-    
-    #titulo_serv{
-        padding-top: 25px;
-    }
-    
-    #epigrafe_inicio_serv{
-        font-size: 20px;
-    }
-    .h1_servv{
-        font-size: 40px;
-    }
-    .h2_servv{
-        font-size: 23px;
-    }
-    
-    .info_servv{
-        font-size: 25px;
-    }
-    
-    #section_galeria{
-        height: 1080px;
-    }
-    
-    #section_contacto{
-        height: 450px;
-    }
-    #img_inicio_contacto{
-        background-repeat: no-repeat;
-        background-size: 600px;
-    }
-    
-    #titulo_contacto{
-        font-size: 35px;
-        padding-top: 10px;
-    }
-    #formulario_contactoss form ul li{
-        font-size: 18px;
-        padding-top: 12px;
-    }
-
     #btn_cabecera li a{
-        font-size: 7.5px;
+        box-shadow: 0px 5px 7px rgba(0,0,0,0.5);
+        font-size: 10px;
         height: 37.5px;
         margin-right: 2px;
         margin-top: 15px;
-        width: 50px;
+        width: 72px;
     }
-    /*section{
-        height: 1090px;
-        width: 1;
-    }*/
-    
-    #img_inicio{
-        background-size: 600px;
-        background-repeat: no-repeat;
-        height: 375px;
-    }
-
-    #info_servicio{
-        height: 380px;
-        width: 410px;
-    }
-    #informacion_servicio{
-        font-size: 20px;
-        padding: 5px 10px;
-    }
-    #video_inicio{
-        width: 450px;
-        margin-left: 75px;
-    }
-    
-    #img_1{
-        height: 224px;
-        width: 224px;
+    #pie_de_pagina{
         margin-left: 50px;
     }
-    #img_2{
-        height: 224px;
-        width: 224px;
-        margin-right: 50px;
-    }
-    #img_3{
-        height: 224px;
-        width: 224px;
-        margin-left: 50px;
-    }
-    #img_4{
-        height: 224px;
-        width: 224px;
-        margin-right: 50px;
-    }
-    #img_5{
-        height: 224px;
-        width: 224px;
-        margin-left: 50px;
-    }
-    #img_6{
-        height: 224px;
-        width: 224px;
-        margin-right: 50px;
-    }
-    #img_7{
-        height: 224px;
-        width: 224px;
-        margin-left: 50px;
-    }
-    #img_8{
-        height: 224px;
-        width: 224px;
-        margin-right: 50px;
-    }
+} /*FIN ADAPTACION 660 - 1023
 
-    #cuadro1, #cuadro2, #cuadro3{
-        width: 250px;
-        height: 250px;
-        margin-left: 175px;
-        margin-right: 175px;
-        margin-top: 10px;
-        }
-    .tamanho_letra{
-        font-size: 10px;
-    }
+_____________________________________
 
-    .tamanho_letra0{
-        font-size: 15px;
-    }
-
-    .text_precios{
-        font-size: 15px;
-    }
-    #section_promociones{
-        height: 850px;
-    }
-
-
-
-
-} /*FIN ADAPTACION 600 - 1023*/
-
-@media all and (max-width: 599px){
-    header, section, footer{
-        width: 100%;
-    }
-    #section_servicios{
-        height: 900px;
-    }
-    #img_inicio_serv{
-        background-size: 100%;
-        background-repeat: no-repeat;
-        min-height: 263px;
-        max-height: 352px;
-        background-color: #ffcccc;
-    }
-    
-    #titulo_serv{
-        padding-top: 0px;
-        font-size: 50px;
-        margin-right: 25px;
-    }
-    
-    #epigrafe_inicio_serv{
-        text-align: center;
-        font-size: 15px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-    #info_serv{
-        margin-top: -30px;
-    }
-    .h1_servv{
-        font-size: 35px;
-    }
-    .h2_servv{
-        font-size: 20px;
-    }
-    
-    .info_servv{
-        font-size: 25px;
-    }
-    
-    
-    #section_contacto{
-        height: 500px;
-    }
-    #img_inicio_contacto{
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
-    
-    #titulo_contacto{
-        font-size: 30px;
-        text-align: center;
-    }
-    #formulario_contactoss form ul li{
-        margin: 0% 100% 0% 0%;
+ADAPTACION A DISPOSITIVOS HASTA 659*/
+@media all and (max-width: 659px){
+    header, footer{
         width: 100%;
     }
     header{
-        height: auto;
+        height: 100px;
         margin: 0%;
         position: static;
         width: 100%;
@@ -290,92 +101,43 @@ footer{
         float: none;
         margin: auto;
     }
-    
+    .listaCabecera li{
+        display: flex;
+    }
     #btn_cabecera li a{
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 0px 0px rgba(0,0,0,0.5);
         height: 10%;
         line-height: 30px;
-        margin-right: 5px;   
         width: 100%;
+        margin: 0;
+        padding: 0;
     }
-
-
     #btn_cabecera li a:hover{
-      padding: 0px 14px 0px 14px;
+      padding: 5px 10px;
     }
-    
-    
-    section{
-        height: auto;
-        margin-top: 145px;
+    .contenedor_footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
-
-    #img_inicio{
-        background-repeat: no-repeat;
-        background-size: 100%;
-        margin-bottom: 0%;
-    }
-
-    #nombre_img_inicio{
-        font-size: 50px;
-    }
-    
-
-    #info_servicio{
-        height: auto;
-        margin-top: -230px;
-        width: 80%;
-    }
-
-    #video_inicio{
-        margin-bottom: 20px;
-        margin-left: 5%;
-        margin-right: 5%;
-        width: 90%;
-    }
-    #section_galeria{
-        height: auto;
-        padding-bottom: 30px;
-        width: 100%;
-    }
-
-    #img_1, #img_2, #img_3, #img_4, #img_5, #img_6, #img_7, #img_8 {
-        float:none;  
-        margin: 5% 0% 0% 25%;
+    #btnn_redes{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-left: 10%;
     }
     #pie_de_pagina{
+        float: none;
         font-size: 15px;
-        margin-left: 5px;
-    }
-    
-    #btnn_redes li a img{
-        height: 20px;
-        margin-right: 20px;
-        width: 20px;
+        margin-left: 0px;
     }
 
-    #cuadro1, #cuadro2, #cuadro3{
-        height: 390px;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-top: 10px;
-        width: 450px;
-        }
-        
-        .text_precios{
-            font-size: 20px;
-        }
-        .tamanho_letra{
-            font-size: 15px;
-        }
-    
-        .tamanho_letra0{
-            font-size: 20px;
-        }
-    
-        .text_precios{
-            font-size: 18px;
-        }
-        #section_promociones{
-            height: 1300px;
-        }
-}/*FIN ADAPTACION 599*/
+    #btnn_redes li a img{
+        float: none;
+        height: 20px;
+        /* margin-right: 0px; */
+        width: 20px;
+    }
+}/*FIN ADAPTACION 659*/

@@ -1,6 +1,6 @@
 #section_servicios{
     background-color: #ffcccc;
-    height: 1600px;
+    height: 1650px;
     right: 0px;
     left: 0px;
     top: 0px;
@@ -58,3 +58,75 @@
     margin-top: 75px;
     font-size: 30px;
 }
+
+/*ADAPTACION A DISPOSITIVOS DE 660 A 1023*/
+@media all and (min-width: 660px) and (max-width: 1023px){
+    #section_servicios{
+        height: 900px;
+    }
+    #img_inicio_serv{
+        background-repeat: no-repeat;
+        background-size: 600px;
+        height: 385px;
+    }
+    
+    #titulo_serv{
+        padding-top: 25px;
+    }
+    
+    #epigrafe_inicio_serv{
+        font-size: 20px;
+    }
+    .h1_servv{
+        font-size: 40px;
+    }
+    .h2_servv{
+        font-size: 23px;
+    }
+    
+    .info_servv{
+        font-size: 25px;
+    }
+} /*FIN ADAPTACION 660 - 1023
+
+_____________________________________
+
+ADAPTACION A DISPOSITIVOS HASTA 659*/
+@media all and (max-width: 659px){
+    #section_servicios{
+        height: 900px;
+    }
+    #img_inicio_serv{
+        background-size: 100%;
+        background-repeat: no-repeat;
+        min-height: 263px;
+        max-height: 352px;
+        background-color: #ffcccc;
+    }
+    
+    #titulo_serv{
+        padding-top: 0px;
+        font-size: 50px;
+        margin-right: 25px;
+    }
+    
+    #epigrafe_inicio_serv{
+        text-align: center;
+        font-size: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #info_serv{
+        margin-top: -30px;
+    }
+    .h1_servv{
+        font-size: 35px;
+    }
+    .h2_servv{
+        font-size: 20px;
+    }
+    
+    .info_servv{
+        font-size: 25px;
+    }
+}/*FIN ADAPTACION 659*/
