@@ -11,25 +11,26 @@
     background-position: center;
     height: 598px;
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
 #titulo_serv{
+    margin-top: 60px;
     /*text-decoration: underline 2px #fff;*/
-    color: #b7d0f3;
+    /* color: #b7d0f3; */
+    color: #5d9aef;
     text-align: center;
     font-size: 200px;
-    -webkit-text-stroke: 0.5px #5d9aef;
-    /*font-family: 'Pacifico', cursive;*/
+    /* -webkit-text-stroke: 0.5px #5d9aef; */
     font-family: 'Sacramento', cursive;
 }
 
 #epigrafe_inicio_serv{
     /*color: #b7d0f3;*/
-    color: #649ef0;
+    color: #000;
     line-height: 150%;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
@@ -37,55 +38,74 @@
     font-weight: bolder;
     font-size: 35px;
     text-align: center;
-    -webkit-text-stroke: 0.5px #fff;
+    /* -webkit-text-stroke: 0.5px #5d9aef; */
 }
 #info_serv{
     text-align: center;
 }
-.h1_servv{
+.contenedor_subtitulo_servicios{
+    margin-top: 25px;
+    border-top: 1px solid #5d9aef;
+    border-bottom: 1px solid #5d9aef;
+
+}
+.subtitulo_servicios{
+    background-color: #fff;
     font-size: 75px;
     color: #b7d0f3;
-    text-decoration: underline 2px;
+    /* text-decoration: underline 2px; */
     -webkit-text-stroke: 0.5px #000
 }
-.h2_servv{
+.aclaracion{
     margin-top: 75px;
     font-size: 50px;
     text-decoration: underline 2.5px;
 }
 
 .info_servv{
-    margin-top: 75px;
-    font-size: 30px;
+    margin-top: 50px;
+    font-size: 50px;
+    color: #fff;
+    text-decoration: underline 1px #5d9aef;
+    -webkit-text-stroke: 0.3px #5d9aef
+
+}
+.info_serv_descripcion{
+    margin-top: 10px;
+    font-size: 35px;
 }
 
 /*ADAPTACION A DISPOSITIVOS DE 660 A 1023*/
 @media all and (min-width: 660px) and (max-width: 1023px){
     #section_servicios{
-        height: 900px;
+        height: 1120px;
     }
     #img_inicio_serv{
         background-repeat: no-repeat;
         background-size: 600px;
         height: 385px;
     }
-    
     #titulo_serv{
-        padding-top: 25px;
+        font-size: 150px;
+        /* padding-top: 0px; */
     }
-    
     #epigrafe_inicio_serv{
         font-size: 20px;
     }
-    .h1_servv{
+    .subtitulo_servicios{
         font-size: 40px;
     }
-    .h2_servv{
-        font-size: 23px;
-    }
-    
     .info_servv{
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    .info_serv_descripcion{
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .aclaracion{
         font-size: 25px;
+        text-decoration: underline 1.5px;
     }
 } /*FIN ADAPTACION 660 - 1023
 
@@ -94,7 +114,7 @@ _____________________________________
 ADAPTACION A DISPOSITIVOS HASTA 659*/
 @media all and (max-width: 659px){
     #section_servicios{
-        height: 900px;
+        height: auto;
     }
     #img_inicio_serv{
         background-size: 100%;
@@ -103,30 +123,35 @@ ADAPTACION A DISPOSITIVOS HASTA 659*/
         max-height: 352px;
         background-color: #ffcccc;
     }
-    
+
     #titulo_serv{
-        padding-top: 0px;
-        font-size: 50px;
+        font-size: 130px;
+        margin-top: 80px;
         margin-right: 25px;
     }
-    
+
     #epigrafe_inicio_serv{
         text-align: center;
-        font-size: 15px;
+        font-size: 20px;
         margin-left: 5px;
         margin-right: 5px;
     }
-    #info_serv{
-        margin-top: -30px;
-    }
-    .h1_servv{
+
+    .subtitulo_servicios{
         font-size: 35px;
-    }
-    .h2_servv{
-        font-size: 20px;
     }
     
     .info_servv{
+        margin-top: 30px;
+        font-size: 35px;
+    }
+    .info_serv_descripcion{
+        margin-top: 10px;
         font-size: 25px;
+    }
+    .aclaracion{
+        font-size: 20px;
+        text-decoration: underline 1.5px;
+        
     }
 }/*FIN ADAPTACION 659*/
